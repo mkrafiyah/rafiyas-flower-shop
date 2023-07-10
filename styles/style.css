@@ -5,20 +5,22 @@
 /* shared styles */
 
 /*banner styles*/
+
 .banner-container{
     height: 100vh;
     width: 100%;
     background: rgba(229, 84, 115, 0.10);
+    padding: 50px 50px 0px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+        
     
 }
 .banner-img{
-    width: 600px;
-    height: 750px;
-    padding-top: 70px;
+    width: 104%;
+    /* height: 750px;
+    padding-top: 70px; */
    
     
 }
@@ -244,7 +246,7 @@
     border-radius: 8px;
 }
 .btn{
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 10px;
 }
 .review{
@@ -252,6 +254,7 @@
     width: 350px;
     background-color: #E55473;
     border-radius: 30px;
+    box-shadow: 10px 10px 10px gray;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -266,6 +269,9 @@
 }
 .review-description{
     padding: 10px ;
+}
+.icon{
+    padding: 15px 0px;
 }
 /*footer starts*/
 .footer-container{
