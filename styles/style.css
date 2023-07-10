@@ -114,7 +114,7 @@
     
 }
 
-/*hot-deal-container starts*/
+/*hot-deal-container section starts*/
 
 .hot-deal-container{
     background: rgba(229, 84, 115, 0.05);
@@ -174,8 +174,45 @@
     width: 330px;
     height: 350px;
     margin-right: 15px;
-    margin-top: 40px;
-    
+    margin-top: 40px;    
 }
+
+/*latest deals section starts*/
+.latest-deals-container{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+   
+}
+.latest-deals-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.latest-deals-description{
+   font-size: 18px;
+   color: rgba(39, 39, 39, 0.60);
+   padding-bottom: 40px;
+}
+.email{
+    width: 600px;
+    height: 64px;border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding-left: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-right: 10px;
+}
+
+
 
 
