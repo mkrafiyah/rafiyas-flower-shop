@@ -114,3 +114,40 @@
     
 }
 
+/*hot-deal-container starts*/
+
+.hot-deal-container{
+    background: rgba(229, 84, 115, 0.05);
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    padding-bottom: 30px;
+   
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+   
+}
+.hot-deal-flower{
+    width: 318px;
+    height: 420px;
+
+}
+.hot-deal-content{
+    text-align: center;
+    
+}
